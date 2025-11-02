@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: dimgray;
+}
+.titlebar{
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    
+}
+.container{
+    display: flex;
+    
+    
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+.container div{
+    width: 200px;
+    color: aliceblue;
+    margin: 10px;
+}

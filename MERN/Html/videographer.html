@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videograph portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+">    <style>
+        body{
+            background-image:url(asset/image/purple\ img.jpeg) ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            
+        }
+        b{
+            color: antiquewhite;
+            
+        }
+        #home{
+            color: white;
+            text-decoration: none;
+            
+            
+        }
+        #about{
+            color: white;
+            text-decoration: none;
+            
+        }
+        #portfolio{
+            color: white;
+            text-decoration: none;
+            
+        }
+        #services{
+            color: white;
+            text-decoration: none;
+        
+        }
+        #pages{
+            color: white;
+            text-decoration: none;
+            
+        }
+        #contact{
+            color: white;
+            text-decoration: none;
+            
+        }
+    nav{
+        margin-top: 20px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-indent: 100px;
+        
+    }
+    #fb{
+        text-indent: 500%;
+    }
+    #x{
+        text-indent: 600%;
+    }
+    #is{
+        text-indent: 700%;
+    }
+    #yb{
+        text-indent: 800%;
+    }
+    
+    
+    #img{
+        
+        position: absolute;
+        top: 20%;
+        right: 25%;
+        height: 300px;
+        width: 500px;
+        z-index: 1;
+    }
+    
+        
+    
+    #text{
+        color: white;
+        font-size: 40px;
+        float: left;
+        z-index: 1;
+    }
+    #content{
+        color: white;
+        margin-top: 160px;
+        margin-left: 20%;
+    }
+    #para{
+        position:absolute;
+        margin-top: 0px !important;
+        font-size: 47px;
+        z-index: 2;
+    }
+    .num{
+        position: relative;
+        left: 13%;
+        top: 220px;
+        color: white;
+    }
+    #service{
+        position: relative;
+        top: 30px;
+    }
+
+    #service a{
+        position: relative;
+        top: 270px;
+        left: 200px;
+        font-size: 15px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .what{
+        position: absolute;
+        font-size: 30px;
+    }
+    .what::before{
+        content: '';
+        position:absolute;
+        border: 2px solid aqua;
+        width: 90px;
+        height: 20px;
+        border-bottom: -10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .para1{
+        height: 80px;
+        width: 240px;
+    }
+    #service .para1{
+        position: relative;
+        top: 260px;
+        left: 200px;
+        color: white;
+    }
+    #font{
+        color: white;
+        border: 2px solid;
+        padding: 6px;
+        border-color: aquamarine;
+    }
+    #motion{
+        position: relative;
+    }
+    .para2{
+        position: absolute;
+        left: 600px;
+        top: 130px;
+    }
+    .graph{
+        color: white;
+        height: 80px;
+        width: 280px;
+        
+    }
+    #video{
+        position: relative;
+
+    }
+    .para3{
+        position: absolute;
+        left: 600px;
+        top: 350px;
+    }
+    .vdo{
+        color: white;
+        height: 80px;
+        width: 280px;
+        
+    }
+     #font{
+        color: white;
+        border: 2px solid;
+        padding: 6px;
+        border-color: aquamarine;
+    }
+    #script{
+        position: relative;
+    }
+    .para4{
+        position: absolute;
+        left: 1000px;
+        top: 130px;
+    }
+    .scr{
+        color: white;
+        height: 80px;
+        width: 280px;
+        
+    }
+    #video{
+        position: relative;
+
+    }
+    .para5{
+        position: absolute;
+        left: 1000px;
+        top: 350px;
+    }
+    .host{
+        color: white;
+        height: 80px;
+        width: 280px;
+        
+    }
+    #view a{
+        position: absolute;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        bottom: 40px;
+        
+        
+        
+    }
+    #view::before,#see::after{
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border:2px solid aqua;
+
+    }
+    #view::before{
+        top:-5px;
+        left:-10px;
+        border-bottom: none;
+        border-right: none;
+    }
+    #view::after{
+        right: -5px;
+        bottom: -10px;
+        border-top: none;
+        border-left: none;
+    }
+        
+    
+    #see{
+        position: absolute;
+        margin-top: 10%;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        
+    }
+    #see::before,#see::after{
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border:2px solid aqua;
+
+    }
+    #see::before{
+        top:-5px;
+        left:-10px;
+        border-bottom: none;
+        border-right: none;
+    }
+    #see::after{
+        right: -5px;
+        bottom: -10px;
+        border-top: none;
+        border-left: none;
+    }
+    
+
+
+    
+
+    </style>
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-play"></i>
+        <b>VIDEOGRAPH</b>
+        <a id="home" href="" target="_blank">Home</a>
+        <a id="about" href="" target="_blank">About</a>
+        <a id="portfolio" href="" target="_blank">Portfolio</a>
+        <a id="services" href="" target="_blank">Services</a>
+        <a id="pages" href="" target="_blank">Pages</a>
+        <a id="contact" href="" target="_blank">contact</a>
+        <i id="fb"class="fa-brands fa-facebook"></i>
+        <i id="x" class="fa-brands fa-twitter"></i>
+        <i id="is" class="fa-brands fa-instagram"></i>
+        <i id="yb"class="fa-brands fa-youtube"></i>
+    </nav>
+    <div id="content">
+        <p>FOR WEBSITE AND VIDEO EDITING</p>
+        <p id="para"><b>VIDEOGRAPHER'S<br>PORTFOLIO</b></p>
+      <a id="see" href="" target="_blank">see more about us</a>
+        <div>
+        <img id="img" src="asset/image/vg portfolio img.jpeg"></div>
+        
+        <a class="num" href="" target="_blank">01</a>
+        <a class="num" href="" target="_blank">02</a>
+        <a class="num" href="" target="_blank">03</a>
+        
+    </div>
+    <div id="service">
+        <a href="" target="_blank">OUR SERVICES</a><br>
+        <a class="what" href="" target="_blank"><b>WHAT DO WE DO?</b></a>
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus obcaecati quis, accusantium excepturi esse aperiam voluptatum aspernatur, magni necessitatibus ut cum</p>
+        <a id="view" href="" target="_blank">VIEW ALL SERVICES</a>
+    </div>   
+    
+    <div id="motion">
+        <div class="para2">
+        <i id="font" class="fa-solid fa-circle-radiation"></i>
+        <p class="graph"><b>Motion Graphics</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit alias ad cupiditate vel ducimus minima facilis modi, error ipsa libero pariatur enim cum, temporibus nulla saepe praesentium consectetur sed. Quo.</p><br>
+        </div>
+    </div>
+    <div id="video">
+        <div class="para3">
+        <i id="font" class="fa-solid fa-circle-radiation"></i>
+        <p class="vdo"><b>Video distribution</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit alias ad cupiditate vel ducimus minima facilis modi, error ipsa libero pariatur enim cum, temporibus nulla saepe praesentium consectetur sed. Quo.</p><br>
+        </div>
+    </div>
+
+    <div id="script">
+        <div class="para4">
+        <i id="font" class="fa-solid fa-circle-radiation"></i>
+        <p class="scr"><b>Scriptwriting and Editing</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit alias ad cupiditate vel ducimus minima facilis modi, error ipsa libero pariatur enim cum, temporibus nulla saepe praesentium consectetur sed. Quo.</p><br>
+        </div>
+    </div>
+    <div id="video">
+        <div class="para5">
+        <i id="font" class="fa-solid fa-circle-radiation"></i>
+        <p class="host"><b>Video hosting</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit alias ad cupiditate vel ducimus minima facilis modi, error ipsa libero pariatur enim cum, temporibus nulla saepe praesentium consectetur sed. Quo.</p><br>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

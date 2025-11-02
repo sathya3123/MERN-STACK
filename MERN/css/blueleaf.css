@@ -1,0 +1,87 @@
+
+      h1 {
+        color: blue;
+      }
+      h1,
+      a {
+        float: left;
+        text-decoration: none;
+      }
+      a {
+        color: rgb(180, 180, 180);
+      }
+      #document {
+        text-indent: 650px;
+        margin: 40px;
+      }
+      #comp {
+        text-indent: 30px;
+        margin: 40px;
+      }
+      #price {
+        text-indent: 30px;
+        margin: 40px;
+      }
+      #Getstart {
+        color: blue;
+        text-indent: 10px;
+        margin: 20px;
+        border: 2px solid blue;
+        border-radius: 20px;
+        padding: 20px;
+        padding-right: 30px;
+      }
+      #para {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        color: black;
+      }
+      p {
+        font-size: 18px;
+        color: grey;
+      }
+      #box {
+        font-size: 17px;
+      }
+      #download {
+        color: white;
+        text-indent: 10px;
+        margin: 20px;
+        border: 2px solid #2563eb;
+        border-radius: 20px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: #2563eb;
+      }
+      h2 {
+        padding-top: 50px;
+        padding-left: 30px;
+        font-size: 30px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #start {
+        color: white;
+        text-indent: 10px;
+        margin: 20px;
+        border: 2px solid #2563eb;
+        border-radius: 20px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: #2563eb;
+      }
+      #samples {
+        color: black;
+        text-indent: 10px;
+        margin: 20px;
+        border: 2px solid rgb(187, 187, 187);
+        border-radius: 20px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: white;
+      }
+      #last {
+        padding: 30px;
+      }
+    

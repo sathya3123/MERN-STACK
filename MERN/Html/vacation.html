@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <style>
+      *{
+        margin: 0px;
+      }
+      body{
+        background-image: url(asset/image/vacation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .para{
+        margin-right: 850px;
+      }
+      .icon{
+        text-indent: 30px;
+      }
+      .navbar{
+        color: white;
+        background-color: rgb(245, 76, 104);
+        height: 60px;
+        
+      }
+      .navbar2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        height: 60px;
+        
+      }
+      .navbar2 h2{
+        margin-left: 40px;
+      }
+      .rent{
+        color: rgb(233, 65, 93);
+      }
+      .navbar2 a{
+        text-decoration: none;
+      }
+      .mid{
+        margin-left: 20%;
+        margin-top: 20%;
+      }
+      .mid p{
+        font-size: 30px
+      }
+      .mid h2{
+        font-size: 50px;
+      }
+      button{
+        padding: 10px 25px;
+        border: none;
+        cursor: pointer;
+      }
+      #btn{
+        color: white;
+        background-color: rgb(233, 62, 91);
+        
+      }
+      .apartment-form{
+        position: relative;
+        left: 970px;
+        bottom: 350px;
+        background-color: white;
+        border-radius: 10px;
+        height: 300px;
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+        
+      }
+      .apartment-form h2{
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .apartment-form input,.apartment-form select{
+        width: 100%;
+        padding: 8px;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 4px;
+        border-color: beige;
+        box-sizing: border-box;
+      }
+      .date-time ,.sel,.ph{
+        display: flex;
+      }
+      .btn{
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+        color: white;
+        background-color: rgb(236, 48, 80);
+        border-radius: 4px;
+      }
+     
+      </style>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <p class="para">phone no: 12345678 or email us:emailsample@gmail.com</p>
+      <span class="icon">
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i  class="fa-brands fa-twitter"></i>
+      </span>
+    </nav>
+    <div class="navbar2">
+      
+      <h2>Vacation<span class="rent">Rental</span></h2>
+        
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Apartment Room</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a> 
+    </div>
+    <div class="mid">
+          <p>Welcome to vacation rental</p>
+          <h2>Rent anapartment<br>for your vacation</h2><br>
+          <button id="btn">LEARN MORE</button>&nbsp;
+          <button>CONTACT US</button>
+    </div> 
+    <div class="apartment-form">
+      <h2>Book your apartment</h2>
+      <form>
+        <input type="text" placeholder="Full name" required class="name">
+        <div class="date-time">
+        <input type="date" required>
+        <input type="time" required>
+        </div>
+        <div class="sel">
+        <select required>
+          <option value="">Adults</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+        <select required>
+          <option value="">Children</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+        </div>
+        <div class="ph">
+        <input type="tel" placeholder="phone number">
+        <input type="time" placeholder="time"></div>
+        <button type="submit" class="btn">Book apartment now</button>
+      </form>
+    </div>
+  </body>
